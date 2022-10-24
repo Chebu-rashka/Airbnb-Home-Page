@@ -1,0 +1,215 @@
+
+/* navbar */
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgb(238, 231, 231);
+  align-items: center;
+  height: 120px;
+  background: white;
+  line-height: 1.7em;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  cursor: pointer;
+ 
+  
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgb(238, 231, 231);
+  align-items: center;
+  height: 120px;
+  background: white;
+  line-height: 1.7em;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  cursor: pointer;
+ 
+  
+}
+
+.secondSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  height: 80px;
+  border: 1px solid rgb(238, 231, 231);
+  border-radius: 50px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-size: 22px;
+  line-height: 1.43;
+  color: #484848;
+  background: white;
+  line-height: 1.7em;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  cursor: pointer;
+}
+
+.guestSection{
+  display: block;
+  cursor: pointer;
+}
+.thirdSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  font-size: 22px;
+  line-height: 1.43;
+  color: #484848;
+}
+
+.account{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(238, 231, 231);
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  
+  cursor: pointer;
+}
+.navbar-icon{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-items: center;
+  color:gray;
+}
+.navbar-icon1{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  color: #ff385c;
+  justify-items: center;
+  align-items: center;
+}
+.iconBar{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+  height: 100px;
+  background: white;
+  line-height: 1.7em;
+  cursor: pointer;
+  
+}
+.filtersection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border:1px solid #dddddd;
+  border-radius: 15px;
+  height: 40px;
+  width: 120px;
+  margin: 40px;
+  cursor: pointer;
+  color: var(--f-k-smk-x);
+  padding: 7px;
+  font-size:20px;
+}
+.filtericon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}
+.iconlist{
+  display: flex;
+  justify-content: space-around;
+  color:  #797676;;
+
+}
+.icon{
+ 
+  width: 56px;
+  height: 55px;
+  --contentscroller_scroller_margin-inline-start: 0;
+
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px 50px 30px;
+  font-size: 20px;
+  
+}
+.logobar{
+
+  justify-items: center;
+  align-items: center;
+  display: grid;
+    justify-items: center;
+    grid-auto-flow: column;
+    margin: 0;
+    padding: 7px 0;
+}
+.parentContainer1, .parentContainer2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+/* width: 600px;
+padding: 10px;
+margin-top: 16px; */
+cursor: pointer;
+}
+.image{
+  width: 23vw;
+  height: 23vw;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.airbnbContainer{
+display: flex;
+flex-direction: column;
+width: 600px;
+margin: 30px;
+cursor: pointer;
+}
+.parentContainer2 img{
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  
+}
+
+.airbnbContainer .locationSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:large;
+}
+.priceSection,.dateSection,.distanceSection{
+  display: flex;
+  margin: 3px;
+}
+/* delgertsiin hemjee 900aas dooshoo bol media query n ajilna */
+/* a-as b hemjetei bvl neg l property harulna */
+@media screen and (max-width: 550px){
+ 
+    .image{
+      width: 90vw;
+      height: 90vw;
+      object-fit: cover;
+      border-radius: 10px;
+
+    }
+  
+}
+/* dooshoo nav bar */
+
+.navContainer{
+  display: flex;
+  height: 98px;
+}
